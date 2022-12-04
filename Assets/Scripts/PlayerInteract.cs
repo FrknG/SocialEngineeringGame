@@ -5,41 +5,36 @@ using UnityEngine;
 public class PlayerInteract : MonoBehaviour
 {
    
-    // Update is called once per frame
+    
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.E))
         {
-            float interactRange = 2f;
-            Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
-            foreach (Collider collider in colliderArray)
+            InteractableInterface interactable = GetInteractableObject();
+            if(interactable  != null)
             {
-                if (collider.TryGetComponent(out Interactable interactable))
-                {
-                    interactable.Interact(transform);
-
-                    
-                }
+                interactable.Interact(transform);
             }
+            
         }
     }
 
-    public Interactable GetInteractableObject()
+    public InteractableInterface GetInteractableObject()
     {
-        List<Interactable> interactableList = new List<Interactable>();
+        List<InteractableInterface> interactableList = new List<InteractableInterface>();
         float interactRange = 2f;
         Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
         foreach (Collider collider in colliderArray)
         {
-            if (collider.TryGetComponent(out Interactable interactable))
+            if (collider.TryGetComponent(out InteractableInterface interactable))
             {
                 interactableList.Add(interactable);    
             }
         }
 
         //Checking if there is any close interactable
-        Interactable closestInteractable = null;
-        foreach (Interactable interactable in interactableList)
+        InteractableInterface closestInteractable = null;
+        foreach (InteractableInterface interactable in interactableList)
         {
             if (closestInteractable == null)
             {
@@ -48,8 +43,8 @@ public class PlayerInteract : MonoBehaviour
             else
             {
                 //Checking if interactable is closer than other one
-                if (Vector3.Distance(transform.position, interactable.transform.position) < 
-                   Vector3.Distance(transform.position, closestInteractable.transform.position))
+                if (Vector3.Distance(transform.position, interactable.GetTransform().position) < 
+                   Vector3.Distance(transform.position, closestInteractable.GetTransform().position))
                 {
                     closestInteractable = interactable;
                 }

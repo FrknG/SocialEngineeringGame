@@ -20,10 +20,10 @@ public class PlayerInteractUI : MonoBehaviour
             Hide();
         }
     }
-    private void Show(Interactable interactable)
+    private void Show(InteractableInterface interactable)
     {
         TalkUI.SetActive(true);
-        interactText.text = interactable.GetChatText();
+        interactText.text = interactable.GetIntText();
     }
 
     private void Hide()
