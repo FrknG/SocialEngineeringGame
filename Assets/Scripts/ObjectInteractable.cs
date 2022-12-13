@@ -6,7 +6,7 @@ public class ObjectInteractable : MonoBehaviour, InteractableInterface
 {
     public string GetIntText()
     {
-        return "Use the Laptop";
+        return "Use Laptop";
     }
 
     public Transform GetTransform()

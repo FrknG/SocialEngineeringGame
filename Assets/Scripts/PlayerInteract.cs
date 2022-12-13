@@ -22,7 +22,7 @@ public class PlayerInteract : MonoBehaviour
     public InteractableInterface GetInteractableObject()
     {
         List<InteractableInterface> interactableList = new List<InteractableInterface>();
-        float interactRange = 2f;
+        float interactRange = 1f;
         Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
         foreach (Collider collider in colliderArray)
         {
