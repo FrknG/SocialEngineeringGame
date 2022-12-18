@@ -44,14 +44,14 @@ public class ObjectInteractable : MonoBehaviour, InteractableInterface
 
     public int Choicemade;
 
-    public void ChoiceOption1()
-    {
-        ChatTextObject.GetComponent<TextMeshProUGUI>().text = "First";
-    }
-    public void ChoiceOption2()
-    {
-        ChatTextObject.GetComponent<TextMeshProUGUI>().text = "First";
 
+    public void Option1()
+    {
+        //cText.text = "Opt 3";
     }
 
+    public void Option2()
+    {
+        //cText.text = "Opt 4";
+    }
 }

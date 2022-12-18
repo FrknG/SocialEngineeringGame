@@ -6,22 +6,22 @@ using TMPro;
 public class PlayerInteractUI : MonoBehaviour
 {
     [SerializeField] private GameObject TalkUI;
-    [SerializeField] private GameObject ChatUI;
+    
     [SerializeField] private PlayerInteract playerInteract;
     [SerializeField] private TextMeshProUGUI interactText;
-    [SerializeField] private TextMeshProUGUI ChatText;
-    public bool IsInteracting;
+    [SerializeField] private GameObject ChatUI;
+
 
     private void Update()
     {
         if (playerInteract.GetInteractableObject() != null)
         {
-            IsInteracting = true;
+            
             Show(playerInteract.GetInteractableObject());
         }
         else
         {
-            IsInteracting = false;
+            
             Hide();
         }
     }
@@ -29,7 +29,7 @@ public class PlayerInteractUI : MonoBehaviour
     {        
         TalkUI.SetActive(true);
         interactText.text = interactable.GetIntText();
-        ChatText.text = interactable.GetChatText();
+        //ChatText.text = interactable.GetChatText();
     }
 
     private void Hide()

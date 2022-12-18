@@ -10,6 +10,8 @@ public interface InteractableInterface
     string GetChatText();
 
     Transform GetTransform();
-    
+
+    void Option1();
+    void Option2();
 
 }
