@@ -7,6 +7,9 @@ public interface InteractableInterface
     void Interact(Transform interactor);
     string GetIntText();
 
+    string GetChatText();
+
     Transform GetTransform();
     
+
 }

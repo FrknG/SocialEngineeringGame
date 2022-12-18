@@ -9,7 +9,7 @@ public class PlayerInteract : MonoBehaviour
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.E))
-        {
+        {            
             InteractableInterface interactable = GetInteractableObject();
             if(interactable  != null)
             {
@@ -22,7 +22,7 @@ public class PlayerInteract : MonoBehaviour
     public InteractableInterface GetInteractableObject()
     {
         List<InteractableInterface> interactableList = new List<InteractableInterface>();
-        float interactRange = 1f;
+        float interactRange = 1.5f;
         Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
         foreach (Collider collider in colliderArray)
         {

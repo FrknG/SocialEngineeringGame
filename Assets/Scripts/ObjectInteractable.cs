@@ -1,12 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class ObjectInteractable : MonoBehaviour, InteractableInterface
 {
+    [SerializeField] private string iText;
+    [SerializeField] private string ChatText;
+    public PlayerInteractUI playerInteractUI;
+
+    public GameObject chatbubble;
+
+    public GameObject Choice1;
+    public GameObject Choice2;
+    public GameObject ChatTextObject;
+
+    public string GetChatText()
+    {
+        return ChatText;
+    }
+
     public string GetIntText()
     {
-        return "Use Laptop";
+        return iText;
     }
 
     public Transform GetTransform()
@@ -16,11 +33,25 @@ public class ObjectInteractable : MonoBehaviour, InteractableInterface
 
     public void Interact(Transform interactor)
     {
-        Search();
+        Use();
     }
 
-    public void Search()
+    public void Use()
     {
-        Debug.Log("Using Laptop");
+        Cursor.lockState = CursorLockMode.None; Cursor.visible = true;
+        chatbubble.SetActive(true);
     }
+
+    public int Choicemade;
+
+    public void ChoiceOption1()
+    {
+        ChatTextObject.GetComponent<TextMeshProUGUI>().text = "First";
+    }
+    public void ChoiceOption2()
+    {
+        ChatTextObject.GetComponent<TextMeshProUGUI>().text = "First";
+
+    }
+
 }
