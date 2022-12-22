@@ -10,8 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 819abe6590f4be54cbc235ff267a0204, type: 3}
-  m_Name: No
+  m_Name: Laptop Interaction
   m_EditorClassIdentifier: 
   dialogue:
-  - "I bel\u0131eve you"
-  responses: []
+  - It seems like user did not lock their laptop while unattending.
+  responses:
+  - responseText: Use
+    dialogueObject: {fileID: 0}
+  - responseText: Inject USB
+    dialogueObject: {fileID: 0}

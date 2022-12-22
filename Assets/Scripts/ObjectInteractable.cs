@@ -7,19 +7,7 @@ using TMPro;
 public class ObjectInteractable : MonoBehaviour, InteractableInterface
 {
     [SerializeField] private string iText;
-    [SerializeField] private string ChatText;
-    public PlayerInteractUI playerInteractUI;
-
-    public GameObject chatbubble;
-
-    public GameObject Choice1;
-    public GameObject Choice2;
-    public GameObject ChatTextObject;
-
-    public string GetChatText()
-    {
-        return ChatText;
-    }
+    public PlayerInteractUI playerInteractUI;   
 
     public string GetIntText()
     {
@@ -30,28 +18,9 @@ public class ObjectInteractable : MonoBehaviour, InteractableInterface
     {
         return transform;
     }
-
-    public void Interact(Transform interactor)
+    public void Interact(PlayerInteract playerInteract)
     {
-        Use();
+        throw new System.NotImplementedException();
     }
 
-    public void Use()
-    {
-        Cursor.lockState = CursorLockMode.None; Cursor.visible = true;
-        chatbubble.SetActive(true);
-    }
-
-    public int Choicemade;
-
-
-    public void Option1()
-    {
-        //cText.text = "Opt 3";
-    }
-
-    public void Option2()
-    {
-        //cText.text = "Opt 4";
-    }
 }

@@ -4,14 +4,12 @@ using UnityEngine;
 
 public interface InteractableInterface
 {
-    void Interact(Transform interactor);
-    string GetIntText();
+    public void Interact(PlayerInteract playerInteract);   
 
-    string GetChatText();
+    string GetIntText();
 
     Transform GetTransform();
 
-    void Option1();
-    void Option2();
+   
 
 }

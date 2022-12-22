@@ -9,7 +9,6 @@ public class PlayerInteractUI : MonoBehaviour
     
     [SerializeField] private PlayerInteract playerInteract;
     [SerializeField] private TextMeshProUGUI interactText;
-    [SerializeField] private GameObject ChatUI;
 
 
     private void Update()
@@ -35,6 +34,6 @@ public class PlayerInteractUI : MonoBehaviour
     private void Hide()
     {        
         TalkUI.SetActive(false);
-        ChatUI.SetActive(false);
+       
     }
 }

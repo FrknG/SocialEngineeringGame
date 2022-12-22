@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 819abe6590f4be54cbc235ff267a0204, type: 3}
-  m_Name: No
+  m_Name: Test2 1
   m_EditorClassIdentifier: 
   dialogue:
-  - "I bel\u0131eve you"
-  responses: []
+  - See yaa
+  responses:
+  - responseText: Done
+    dialogueObject: {fileID: 0}

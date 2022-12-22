@@ -125,6 +125,10 @@ namespace StarterAssets
             }
         }
 
+        [SerializeField] private DialogueUI dialogueUI;
+
+        public DialogueUI DialogueUI => dialogueUI;
+
 
         private void Awake()
         {
@@ -158,6 +162,13 @@ namespace StarterAssets
         private void Update()
         {
             _hasAnimator = TryGetComponent(out _animator);
+            if (dialogueUI.IsOpen)
+            {
+                Cursor.lockState = CursorLockMode.None; Cursor.visible = true;
+                return;
+            }
+
+            
             JumpAndGravity();
             GroundedCheck();
             Move();

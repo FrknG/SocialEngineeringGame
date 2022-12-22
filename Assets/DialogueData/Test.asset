@@ -13,13 +13,10 @@ MonoBehaviour:
   m_Name: Test
   m_EditorClassIdentifier: 
   dialogue:
-  - "Hello Furkan!\t"
-  - How are you
-  - x
-  - y
-  - z
+  - Hello Furkan!?!!!!!!!
+  - How are you???? ......
   responses:
-  - responseText: asdasdasdasdasdasdasdasd
+  - responseText: Yes
     dialogueObject: {fileID: 11400000, guid: b4486088e7d8989439c8b3b660cbee6d, type: 2}
-  - responseText: asdasdasdasdasdasdasd
+  - responseText: No
     dialogueObject: {fileID: 11400000, guid: b99d99fe5c8c2dc45a09dccd3fd2a173, type: 2}
