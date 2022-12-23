@@ -19,7 +19,7 @@ public class DialogueUI : MonoBehaviour
     {
         typeWriter= GetComponent<TypeWriter>();
         responseHandler = GetComponent<ResponseHandler>();
-
+        textLabel.color = new Color(255, 255, 255, 255);
 
         CloseDialogue();
     }
@@ -45,10 +45,13 @@ public class DialogueUI : MonoBehaviour
             string dialogue = dialogueObject.Dialogue[i];
 
             yield return RunTypingEffect(dialogue);
+
+           
             textLabel.text = dialogue;
+            
 
             //yield return typeWriter.Run(dialogue, textLabel);
-            if(i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
+            if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
 
             yield return null;
 

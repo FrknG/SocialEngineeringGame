@@ -37,17 +37,27 @@ public class DialogueActivator : MonoBehaviour, InteractableInterface
 
     public void Interact(PlayerInteract playerInteract)
     {
-        playerInteract.DialogueUI.ShowDialogue(dialogueObject);
-        
-        foreach(DialogueResponseEvents responseEvents in GetComponents<DialogueResponseEvents>())
-        {
-            if(responseEvents.DialogueObject == dialogueObject)
-            {
-                playerInteract.DialogueUI.AddResponseEvents(responseEvents.Events);
-                break;
-            }
-        }
 
+        if(dialogueObject != null && playerInteract.DialogueUI.IsOpen == false )
+        {
+
+        
+            playerInteract.DialogueUI.ShowDialogue(dialogueObject);
+        
+            foreach(DialogueResponseEvents responseEvents in GetComponents<DialogueResponseEvents>())
+            {
+                if(responseEvents.DialogueObject == dialogueObject)
+                {
+                    playerInteract.DialogueUI.AddResponseEvents(responseEvents.Events);
+                    break;
+                }
+            }
+
+        }
+        else if (dialogueObject== null && gameObject.tag == "Interactable")
+        {
+            gameObject.SetActive(false);
+        }
         //playerInteract.DialogueUI.ShowDialogue(dialogueObject);
 
     }

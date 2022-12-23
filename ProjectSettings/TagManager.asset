@@ -5,8 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
-  - Aysel
-  - Seseg
+  - Interactable
   layers:
   - Default
   - TransparentFX
