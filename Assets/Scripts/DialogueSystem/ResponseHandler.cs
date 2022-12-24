@@ -27,7 +27,7 @@ public class ResponseHandler : MonoBehaviour
 
     public void ShowResponses(Response[] responses)
     {
-        float responseBoxHeight = 0;
+        float responseBoxHeight = 60;
 
         for (int i = 0; i< responses.Length;   i++)
         {
@@ -43,7 +43,10 @@ public class ResponseHandler : MonoBehaviour
 
             tempResponseButtons.Add(responseButton);
 
-            responseBoxHeight += responseButtonTemplate.sizeDelta.y;
+            responseBoxHeight = responseBoxHeight + responseButtonTemplate.sizeDelta.y;
+            //responseBox.anchoredPosition = new Vector2(responseBox.anchoredPosition.x, -175);
+
+            
         }
 
         responseBox.sizeDelta = new Vector2(responseBox.sizeDelta.x, responseBoxHeight);

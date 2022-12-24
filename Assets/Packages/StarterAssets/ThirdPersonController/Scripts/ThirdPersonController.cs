@@ -161,24 +161,18 @@ namespace StarterAssets
 
         private void Update()
         {
-            _hasAnimator = TryGetComponent(out _animator);
-            if (dialogueUI.IsOpen)
-            {
-                Cursor.lockState = CursorLockMode.None; Cursor.visible = true;
-                return;
-            }
-
-            
+            _hasAnimator = TryGetComponent(out _animator);            
+            Cursor.lockState = CursorLockMode.None; Cursor.visible = true;         
             JumpAndGravity();
             GroundedCheck();
             Move();
-          
-           
+
         }
 
         private void LateUpdate()
-        {
-            CameraRotation();    
+        {         
+            CameraRotation();           
+             
         }
 
         private void AssignAnimationIDs()

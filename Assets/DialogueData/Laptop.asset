@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: Laptop
   m_EditorClassIdentifier: 
   dialogue:
-  - This is laptop
+  - 'It seems like someone left their computer unattended '
   responses:
-  - responseText: Okay
+  - responseText: Use this computer
+    dialogueObject: {fileID: 0}
+  - responseText: "Do noth\u0131ng"
+    dialogueObject: {fileID: 0}
+  - responseText: "Do noth\u0131ng else"
+    dialogueObject: {fileID: 0}
+  - responseText: do everything
     dialogueObject: {fileID: 0}
