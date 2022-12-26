@@ -2,8 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/[As]sets/Prefabs1
-/[As]sets/Packages
+/[Aa]ssets/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
