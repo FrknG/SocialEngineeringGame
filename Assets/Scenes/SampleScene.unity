@@ -6745,8 +6745,6 @@ MonoBehaviour:
   BottomClamp: -30
   CameraAngleOverride: 0
   LockCameraPosition: 0
-  playerInteractUI: {fileID: 309103165}
-  dialogueUI: {fileID: 6422179424936218391}
 --- !u!143 &4416926082481605725
 CharacterController:
   m_ObjectHideFlags: 0

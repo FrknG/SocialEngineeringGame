@@ -2,7 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/[Aa]ssets/
+/Assets/Packages
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -71,3 +71,251 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+Assets/Packages/Office 1/Prefabs/Whiteboard.prefab
+Assets/Packages/Office 1/Prefabs/Whiteboard.prefab.meta
+Assets/Packages/PolygonHeist/Materials/PolygonHeist_Character_Material_01.mat
+Assets/Packages/Office 1/Prefabs/Whiteboard.prefab
+Assets/Packages/Office 1/Prefabs/Whiteboard.prefab.meta
+Assets/Packages/PolygonHeist/Materials/PolygonHeist_Character_Material_01.mat
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Ceiling_Light_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Ceiling_Light_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Ceiling_Light_02.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Ceiling_Light_02.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Ceiling_Light_03.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Ceiling_Light_03.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Door_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Door_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Door_02.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Door_02.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Door_03.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Door_03.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Floor_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Floor_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Floor_02.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Floor_02.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Pillar_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Pillar_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Pillar_02.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Pillar_02.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Stairway_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Stairway_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Steps_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Steps_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Steps_02.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Steps_02.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Steps_03.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Steps_03.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Steps_04.prefab
+Assets/Packages/PolygonHeist/Prefab/Environment/SM_Env_Steps_04.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Aircon_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Aircon_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_AirVent_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_AirVent_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Bin_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Bin_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Box_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Box_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Camera_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Camera_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_CoffeeTable_02.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_CoffeeTable_02.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_CoffeTable_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_CoffeTable_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Computer_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Computer_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Computer_Keyboard_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Computer_Keyboard_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Computer_Mouse_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Computer_Mouse_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Computer_Screen_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Computer_Screen_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Couch_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Couch_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Couch_02.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Couch_02.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Desk_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Desk_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Desk_02.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Desk_02.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Desk_03.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Desk_03.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_DeskLight_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_DeskLight_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Drawers_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Drawers_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Folder_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Folder_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Folder_02.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Folder_02.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Folder_03.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Folder_03.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Folder_04.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Folder_04.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Folder_05.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Folder_05.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_MetalDetector_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_MetalDetector_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_MetalDetector_Baggage_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_MetalDetector_Baggage_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Pillar_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Pillar_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Plant_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Plant_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Plant_02.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Plant_02.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Plant_03.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Plant_03.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Rug_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Rug_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Rug_02.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Rug_02.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Shelf_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Shelf_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Statue_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Statue_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Table_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_Table_01.prefab.meta
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_WaterCooler_01.prefab
+Assets/Packages/PolygonHeist/Prefab/Props/SM_Prop_WaterCooler_01.prefab.meta
+Assets/Packages/PolygonHeist/Scenes/Demo.unity
+Assets/Prefabs 1.meta
+Assets/Prefabs 1/Building.meta
+Assets/Prefabs 1/Building/2FloorWall.prefab
+Assets/Prefabs 1/Building/2FloorWall.prefab.meta
+Assets/Prefabs 1/Building/BottomWallwithWindow.prefab
+Assets/Prefabs 1/Building/BottomWallwithWindow.prefab.meta
+Assets/Prefabs 1/Building/Ceiling.prefab
+Assets/Prefabs 1/Building/Ceiling.prefab.meta
+Assets/Prefabs 1/Building/Ciftli Kapi Ic.prefab
+Assets/Prefabs 1/Building/Ciftli Kapi Ic.prefab.meta
+Assets/Prefabs 1/Building/CiftliDisKapi.prefab
+Assets/Prefabs 1/Building/CiftliDisKapi.prefab.meta
+Assets/Prefabs 1/Building/CiftliKapi.prefab
+Assets/Prefabs 1/Building/CiftliKapi.prefab.meta
+Assets/Prefabs 1/Building/DosyaDolabi.prefab
+Assets/Prefabs 1/Building/DosyaDolabi.prefab.meta
+Assets/Prefabs 1/Building/InteriorWalls.prefab
+Assets/Prefabs 1/Building/InteriorWalls.prefab.meta
+Assets/Prefabs 1/Building/L Shaped Ceiling.prefab
+Assets/Prefabs 1/Building/L Shaped Ceiling.prefab.meta
+Assets/Prefabs 1/Building/MainEntrance.prefab
+Assets/Prefabs 1/Building/MainEntrance.prefab.meta
+Assets/Prefabs 1/Building/Office.prefab
+Assets/Prefabs 1/Building/Office.prefab.meta
+Assets/Prefabs 1/Building/OfficeLayout.prefab
+Assets/Prefabs 1/Building/OfficeLayout.prefab.meta
+Assets/Prefabs 1/Building/Roof.prefab
+Assets/Prefabs 1/Building/Roof.prefab.meta
+Assets/Prefabs 1/Building/SeatGroup.prefab
+Assets/Prefabs 1/Building/SeatGroup.prefab.meta
+Assets/Prefabs 1/Building/SecretaryDesk.prefab
+Assets/Prefabs 1/Building/SecretaryDesk.prefab.meta
+Assets/Prefabs 1/Building/SecurityCheck.prefab
+Assets/Prefabs 1/Building/SecurityCheck.prefab.meta
+Assets/Prefabs 1/Building/SecurityDesk.prefab
+Assets/Prefabs 1/Building/SecurityDesk.prefab.meta
+Assets/Prefabs 1/Building/SM_Prop_AirVent_01.prefab
+Assets/Prefabs 1/Building/SM_Prop_AirVent_01.prefab.meta
+Assets/Prefabs 1/Building/SM_Prop_Pillar_01.prefab
+Assets/Prefabs 1/Building/SM_Prop_Pillar_01.prefab.meta
+Assets/Prefabs 1/Building/SM_Prop_Plant_01.prefab
+Assets/Prefabs 1/Building/SM_Prop_Plant_01.prefab.meta
+Assets/Prefabs 1/Building/SM_Prop_Plant_02.prefab
+Assets/Prefabs 1/Building/SM_Prop_Plant_02.prefab.meta
+Assets/Prefabs 1/Building/SM_Prop_Plant_03.prefab
+Assets/Prefabs 1/Building/SM_Prop_Plant_03.prefab.meta
+Assets/Prefabs 1/Building/SM_Prop_Rug_01.prefab
+Assets/Prefabs 1/Building/SM_Prop_Rug_01.prefab.meta
+Assets/Prefabs 1/Building/SM_Prop_Rug_02.prefab
+Assets/Prefabs 1/Building/SM_Prop_Rug_02.prefab.meta
+Assets/Prefabs 1/Building/SM_Prop_Statue_01.prefab
+Assets/Prefabs 1/Building/SM_Prop_Statue_01.prefab.meta
+Assets/Prefabs 1/Building/SM_Prop_WaterCooler_01.prefab
+Assets/Prefabs 1/Building/SM_Prop_WaterCooler_01.prefab.meta
+Assets/Prefabs 1/Building/TekliKapiIc.prefab
+Assets/Prefabs 1/Building/TekliKapiIc.prefab.meta
+Assets/Prefabs 1/Building/WallwithWindows.prefab
+Assets/Prefabs 1/Building/WallwithWindows.prefab.meta
+Assets/Prefabs 1/Canvas.prefab
+Assets/Prefabs 1/Canvas.prefab.meta
+Assets/Prefabs 1/ChatBubble.prefab
+Assets/Prefabs 1/ChatBubble.prefab.meta
+Assets/Prefabs 1/City.prefab
+Assets/Prefabs 1/City.prefab.meta
+Assets/Prefabs 1/ComputerScreen 1.prefab
+Assets/Prefabs 1/ComputerScreen 1.prefab.meta
+Assets/Prefabs 1/DialogueHandler.prefab
+Assets/Prefabs 1/DialogueHandler.prefab.meta
+Assets/Prefabs 1/Door.prefab
+Assets/Prefabs 1/Door.prefab.meta
+Assets/Prefabs 1/laptop .prefab
+Assets/Prefabs 1/laptop .prefab.meta
+Assets/Prefabs 1/Leonard.meta
+Assets/Prefabs 1/Leonard/Ch31_nonPBR@Standing W_Briefcase Idle.fbx
+Assets/Prefabs 1/Leonard/Ch31_nonPBR@Standing W_Briefcase Idle.fbx.meta
+Assets/Prefabs 1/Leonard/Standing W_Briefcase Idle.zip
+Assets/Prefabs 1/Leonard/Standing W_Briefcase Idle.zip.meta
+Assets/Prefabs 1/Leonard/textures.meta
+Assets/Prefabs 1/Leonard/textures/Ch31_1001_Diffuse.png
+Assets/Prefabs 1/Leonard/textures/Ch31_1001_Diffuse.png.meta
+Assets/Prefabs 1/Leonard/textures/Ch31_1001_Glossiness.png
+Assets/Prefabs 1/Leonard/textures/Ch31_1001_Glossiness.png.meta
+Assets/Prefabs 1/Leonard/textures/Ch31_1001_Normal.png
+Assets/Prefabs 1/Leonard/textures/Ch31_1001_Normal.png.meta
+Assets/Prefabs 1/Leonard/textures/Ch31_1001_Specular.png
+Assets/Prefabs 1/Leonard/textures/Ch31_1001_Specular.png.meta
+Assets/Prefabs 1/Leonard/textures/Ch31_1002_Diffuse.png
+Assets/Prefabs 1/Leonard/textures/Ch31_1002_Diffuse.png.meta
+Assets/Prefabs 1/Meeting Room.prefab
+Assets/Prefabs 1/Meeting Room.prefab.meta
+Assets/Prefabs 1/Megan.meta
+Assets/Prefabs 1/Megan/Megan@Idle.fbx
+Assets/Prefabs 1/Megan/Megan@Idle.fbx.meta
+Assets/Prefabs 1/Megan/Standing W_Briefcase Idle.anim
+Assets/Prefabs 1/Megan/Standing W_Briefcase Idle.anim.meta
+Assets/Prefabs 1/Megan/textures.meta
+Assets/Prefabs 1/Megan/textures/Ch22_1001_Diffuse.png
+Assets/Prefabs 1/Megan/textures/Ch22_1001_Diffuse.png.meta
+Assets/Prefabs 1/Megan/textures/Ch22_1001_Glossiness.png
+Assets/Prefabs 1/Megan/textures/Ch22_1001_Glossiness.png.meta
+Assets/Prefabs 1/Megan/textures/Ch22_1001_Normal.png
+Assets/Prefabs 1/Megan/textures/Ch22_1001_Normal.png.meta
+Assets/Prefabs 1/Megan/textures/Ch22_1001_Specular.png
+Assets/Prefabs 1/Megan/textures/Ch22_1001_Specular.png.meta
+Assets/Prefabs 1/Megan/textures/Ch22_1002_Diffuse.png
+Assets/Prefabs 1/Megan/textures/Ch22_1002_Diffuse.png.meta
+Assets/Prefabs 1/Megan/textures/Ch22_1002_Normal.png
+Assets/Prefabs 1/Megan/textures/Ch22_1002_Normal.png.meta
+Assets/Prefabs 1/NPC1.prefab
+Assets/Prefabs 1/NPC1.prefab.meta
+Assets/Prefabs 1/NPC2.prefab
+Assets/Prefabs 1/NPC2.prefab.meta
+Assets/Prefabs 1/Office.prefab
+Assets/Prefabs 1/Office.prefab.meta
+Assets/Prefabs 1/Player.prefab
+Assets/Prefabs 1/Player.prefab.meta
+Assets/Prefabs 1/SM_Env_Skyline_01 Variant.prefab
+Assets/Prefabs 1/SM_Env_Skyline_01 Variant.prefab.meta
+Assets/Prefabs 1/Sophie.meta
+Assets/Prefabs 1/Sophie/Ch02_nonPBR@Standing W_Briefcase Idle.fbx
+Assets/Prefabs 1/Sophie/Ch02_nonPBR@Standing W_Briefcase Idle.fbx.meta
+Assets/Prefabs 1/Sophie/Standing W_Briefcase Idle (1).zip
+Assets/Prefabs 1/Sophie/Standing W_Briefcase Idle (1).zip.meta
+Assets/Prefabs 1/Sophie/textures.meta
+Assets/Prefabs 1/Sophie/textures/Ch02_1001_Diffuse.png
+Assets/Prefabs 1/Sophie/textures/Ch02_1001_Diffuse.png.meta
+Assets/Prefabs 1/Sophie/textures/Ch02_1001_Glossiness.png
+Assets/Prefabs 1/Sophie/textures/Ch02_1001_Glossiness.png.meta
+Assets/Prefabs 1/Sophie/textures/Ch02_1001_Normal.png
+Assets/Prefabs 1/Sophie/textures/Ch02_1001_Normal.png.meta
+Assets/Prefabs 1/Sophie/textures/Ch02_1001_Specular.png
+Assets/Prefabs 1/Sophie/textures/Ch02_1001_Specular.png.meta
+Assets/Prefabs 1/Sophie/textures/Ch02_1002_Diffuse.png
+Assets/Prefabs 1/Sophie/textures/Ch02_1002_Diffuse.png.meta
+Assets/Prefabs 1/Sophie/textures/Ch02_1002_Normal.png
+Assets/Prefabs 1/Sophie/textures/Ch02_1002_Normal.png.meta
+Assets/Prefabs 1/stage  (1).prefab
+Assets/Prefabs 1/stage  (1).prefab.meta
+Assets/Prefabs 1/Wall.prefab
+Assets/Prefabs 1/Wall.prefab.meta
