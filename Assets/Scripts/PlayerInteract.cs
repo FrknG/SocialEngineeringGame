@@ -8,8 +8,15 @@ public class PlayerInteract : MonoBehaviour
 
     public DialogueUI DialogueUI => dialogueUI;
 
+    public bool HasCard;
     public InteractableInterface Interactable { get; set; }
-    
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        HasCard = false;
+    }
+
     private void Update()
     {
 
@@ -22,25 +29,22 @@ public class PlayerInteract : MonoBehaviour
                 interactable.Interact(transform);
             }
             */
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             InteractableInterface Interactable = GetInteractableObject();
             Interactable?.Interact(this);
             
         }
     }
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        //Use the same vars you use to draw your Overlap SPhere to draw your Wire Sphere.
-        Gizmos.DrawWireSphere(transform.position, 0.4f);
-    }
+    
     public InteractableInterface GetInteractableObject()
     {
 
 
 
         List<InteractableInterface> interactableList = new List<InteractableInterface>();
-        float interactRange = 0.4f;
-        Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
+        //float interactRange = 0.4f;
+        Collider[] colliderArray = Physics.OverlapSphere(transform.position, this.GetComponent<CapsuleCollider>().radius);
         foreach (Collider collider in colliderArray)
         {
             if (collider.TryGetComponent(out InteractableInterface interactable))

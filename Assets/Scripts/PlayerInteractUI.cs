@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.Events;
 public class PlayerInteractUI : MonoBehaviour
 {
     [SerializeField] private GameObject TalkUI;
@@ -10,6 +10,7 @@ public class PlayerInteractUI : MonoBehaviour
     [SerializeField] private PlayerInteract playerInteract;
     [SerializeField] private TextMeshProUGUI interactText;
 
+    public UnityEvent progress;
 
     private void Update()
     {
@@ -28,7 +29,7 @@ public class PlayerInteractUI : MonoBehaviour
     {        
         TalkUI.SetActive(true);
         interactText.text = interactable.GetIntText();
-        //ChatText.text = interactable.GetChatText();
+      
     }
 
     private void Hide()

@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
-using TMPro;
 using UnityEngine;
 
 public class DialogueActivator : MonoBehaviour, InteractableInterface
@@ -53,16 +49,12 @@ public class DialogueActivator : MonoBehaviour, InteractableInterface
                 }
             }
 
-        }
-        else if (dialogueObject== null && gameObject.tag == "Interactable")
-        {
-            gameObject.SetActive(false);
-        }
-        //playerInteract.DialogueUI.ShowDialogue(dialogueObject);
+        }      
+        
 
     }
 
-  
+    
 
     public string GetIntText()
     {
@@ -73,4 +65,7 @@ public class DialogueActivator : MonoBehaviour, InteractableInterface
     {
         return transform;
     }
+
+
+
 }

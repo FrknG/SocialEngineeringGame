@@ -19,7 +19,3 @@ MonoBehaviour:
     dialogueObject: {fileID: 0}
   - responseText: "Do noth\u0131ng"
     dialogueObject: {fileID: 0}
-  - responseText: "Do noth\u0131ng else"
-    dialogueObject: {fileID: 0}
-  - responseText: do everything
-    dialogueObject: {fileID: 0}
