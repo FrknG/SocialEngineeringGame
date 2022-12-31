@@ -28,12 +28,9 @@ public class PlayerInteract : MonoBehaviour
             {
                 interactable.Interact(transform);
             }
-            */
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-            InteractableInterface Interactable = GetInteractableObject();
+            */            
+            InteractableInterface Interactable = GetInteractableObject();            
             Interactable?.Interact(this);
-            
         }
     }
     

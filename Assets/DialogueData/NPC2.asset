@@ -13,7 +13,15 @@ MonoBehaviour:
   m_Name: NPC2
   m_EditorClassIdentifier: 
   dialogue:
-  - This is NPC2
+  - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   responses:
   - responseText: Hello
+    dialogueObject: {fileID: 0}
+  - responseText: 2
+    dialogueObject: {fileID: 0}
+  - responseText: 3
+    dialogueObject: {fileID: 0}
+  - responseText: 4
+    dialogueObject: {fileID: 0}
+  - responseText: 5
     dialogueObject: {fileID: 0}

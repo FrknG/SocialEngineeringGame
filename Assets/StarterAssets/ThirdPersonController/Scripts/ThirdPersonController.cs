@@ -155,15 +155,23 @@ namespace StarterAssets
         private void Update()
         {
             _hasAnimator = TryGetComponent(out _animator);
+            if(!DialogueUI.instance.IsOpen)
+            {                
+                JumpAndGravity();
+                GroundedCheck();
+                Move();
+            }
             
-            JumpAndGravity();
-            GroundedCheck();
-            Move();
+            
         }
 
         private void LateUpdate()
         {
-            CameraRotation();
+            if (!DialogueUI.instance.IsOpen)
+            {
+                CameraRotation();
+            }
+            
         }
 
         private void AssignAnimationIDs()
@@ -212,7 +220,7 @@ namespace StarterAssets
         }
 
         private void Move()
-        {
+        {            
             // set target speed based on move speed, sprint speed and if sprint is pressed
             float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
 

@@ -10,6 +10,9 @@ public interface InteractableInterface
 
     Transform GetTransform();
 
-   
+
+    
+
+
 
 }

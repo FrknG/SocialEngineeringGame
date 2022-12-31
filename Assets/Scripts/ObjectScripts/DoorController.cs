@@ -5,8 +5,7 @@ using UnityEngine;
 public class DoorController : MonoBehaviour, InteractableInterface
 {
     Animator _doorAnim;
-    [SerializeField] private string iText;
-    public PlayerInteractUI playerInteractUI;
+    [SerializeField] private string iText;    
     public PlayerInteract playerInteract;
 
     public bool NeedCard;

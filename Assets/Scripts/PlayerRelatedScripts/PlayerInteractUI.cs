@@ -9,8 +9,7 @@ public class PlayerInteractUI : MonoBehaviour
     
     [SerializeField] private PlayerInteract playerInteract;
     [SerializeField] private TextMeshProUGUI interactText;
-
-    public UnityEvent progress;
+    
 
     private void Update()
     {
